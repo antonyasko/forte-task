@@ -2,7 +2,7 @@
   "name": "forte",
   "version": "1.0.0",
   "description": "forte project",
-  "main": "src/index.js",
+  "main": "src/index.jsx",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "analyze": "webpack -p --env.analyze"
@@ -17,6 +17,10 @@
   "devDependencies": {
     "webpack": "^4.43.0",
     "webpack-cli": "^3.3.11",
-    "webpack-bundle-analyzer": "^3.8.0"
+    "webpack-bundle-analyzer": "^3.8.0",
+    "css-loader": "^3.5.3",
+    "sass-loader": "^8.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0"
   }
 }
